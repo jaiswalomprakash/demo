@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo
+#    url: jdbc:mysql://localhost:3306/buhle_demo_back
+#    username: root
+#    password: root
+    username: root
+    password: admin
+#    username: mysqluser
+#    password: stixis@123
+    continueOnError: true
+    initialize: false
+    initialSize: 0
+    timeBetweenEvictionRunsMillis: 5000
+    minEvictableIdleTimeMillis: 5000
+    minIdle: 0
+    
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+#  spring.jpa.properties.hibernate.id.new_generator_mappings: true
+  jpa:
+    show-sql: true
+    hibernate:
+#      use-new-id-generator-mappings: false
+      ddl-auto: update
+#     naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+logging:
+  file: logs/demo.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.web: DEBUG
+    guru.springframework.controllers: DEBUG
+    org.hibernate: DEBUG        
