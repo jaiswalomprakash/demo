@@ -12,5 +12,5 @@ public interface TransactionService {
 	
 	User createUserRequired(User user);
 	
-
+	User getUser(Integer userId);
 }

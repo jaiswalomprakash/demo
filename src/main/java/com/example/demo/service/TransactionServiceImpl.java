@@ -59,6 +59,12 @@ public class TransactionServiceImpl implements TransactionService {
 
 		return makeCollection(userRepository.findAll());
 	}
+	
+	@Override	
+	public User getUser(Integer userId) {
+
+		return userRepository.findOne(userId);
+	}
 
 	public static <E> Collection<E> makeCollection(Iterable<E> iter) {
 		Collection<E> list = new ArrayList<E>();
