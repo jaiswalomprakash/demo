@@ -25,7 +25,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("DemoApplication.main()");
-		Test();
+		//Test();
 	}
 	
 	 //https://stackoverflow.com/questions/21723183/spring-resttemplate-to-post-request-with-custom-headers-and-a-request-object/26882099

@@ -28,7 +28,8 @@ public class UserServiceImpl implements UserService,DemoService {
 	
 
 	@Override
-	public User createUser(User user) {		
+	public User createUser(User user) {	
+		user.setId(0);
 		return userRepository.save(user);
 	}
 
@@ -41,6 +42,20 @@ public class UserServiceImpl implements UserService,DemoService {
 	public void deleteUser(Integer userId) {
 		 userRepository.delete(userId);
 	}
+	
+   @Override
+   public void updatePartially(User currentUser, int id) {
+        User user = userRepository.findOne(id);   
+        if (user!=null && currentUser.getId() == id) {
+            if (currentUser.getName() != null) {
+                user.setId(id);
+                user.setName(currentUser.getName());
+            }           
+            editUser(user);
+        }
+
+
+    }
 	
 	
 
