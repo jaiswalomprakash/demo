@@ -1,0 +1,17 @@
+spring 
+
+versioning 
+
+https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
+
+
+
+java 8 
+https://www.techiedelight.com/check-array-contains-specified-value-java/
+https://www.oreilly.com/learning/java-8-functional-interfaces
+
+
+
+Angular
+
+https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/
