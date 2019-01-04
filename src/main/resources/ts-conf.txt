@@ -15,3 +15,4 @@ https://www.oreilly.com/learning/java-8-functional-interfaces
 Angular
 
 https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/
+https://www.peerbits.com/blog/angular-7-features-and-updates.html
