@@ -16,3 +16,17 @@ Angular
 
 https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/
 https://www.peerbits.com/blog/angular-7-features-and-updates.html
+https://hackr.io/blog/angular-interview-questions
+https://www.c-sharpcorner.com/article/difference-among-angularjs-angular-2-angular-4-and-angular-5/
+https://malcoded.com/posts/angular-fundamentals-universal-server-side-rendering
+
+Differentiate between Observables and Promises.
+Observables are lazy, which means nothing happens until a subscription is made. Whereas Promises are eager; which means as soon as a promise is created, the execution takes place. Observable is a stream in which passing of zero or more events is possible and the callback is called for each event. Whereas, promise handles a single event.
+What is an AsyncPipe in Angular? 
+When an observable or promise returns something, we use a temporary property to hold the content. Later, we bind the same content to the template. With the usage of AsyncPipe, the promise or observable can be directly used in a template and a temporary property is not required.
+ What is Redux? 
+It is a library which helps us maintain the state of the application. Redux is not required in applications that are simple with the simple data flow, it is used in Single Page Applications that have complex data flow.
+
+
+https://github.com/victorrentea/design-patterns-spring-java8
+https://dzone.com/articles/functional-programming-patterns-with-java-8   
