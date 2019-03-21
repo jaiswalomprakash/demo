@@ -29,4 +29,7 @@ It is a library which helps us maintain the state of the application. Redux is n
 
 
 https://github.com/victorrentea/design-patterns-spring-java8
-https://dzone.com/articles/functional-programming-patterns-with-java-8   
+https://dzone.com/articles/functional-programming-patterns-with-java-8
+
+enum 
+https://www.baeldung.com/start-here   
